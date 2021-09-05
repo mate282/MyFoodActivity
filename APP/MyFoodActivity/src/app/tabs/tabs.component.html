@@ -1,0 +1,9 @@
+<GridLayout rows="*,50">
+    <Label text="Outlet" row="0" margin="20"></Label>
+  <page-router-outlet name="tabsOutlet" row="0" actionBarVisibility="never"></page-router-outlet>
+ <GridLayout columns="*,*,*">
+    <Button text="Home" (tap)="navigate('home')" col="0"></Button>
+    <Button text="Food" col="1"></Button>
+    <Button text="Setting" (tap)="navigate('setting')"  col="2"></Button>
+ </GridLayout>
+</GridLayout>
